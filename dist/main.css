@@ -1,0 +1,179 @@
+@font-face {
+  font-family: "Monstr";
+  src: url("/fonts/Roboto-Black.woff"), format("woff"), url("/fonts/Roboto-Black.woff2"), format("woff2");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Monstr";
+  src: url("/fonts/Roboto-Bold.woff"), format("woff"), url("/fonts/Roboto-Light.woff2"), format("woff2");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Monstr";
+  src: url("../fonts/Montserrat-SemiBold.woff"), format("woff"), url("../fonts/Montserrat-SemiBold.woff2"), format("woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Monstr";
+  src: url("/fonts/Roboto-Medium.woff"), format("woff"), url("/fonts/Roboto-Medium.woff2"), format("woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Monstr";
+  src: url("/fonts/Roboto-Regular.woff"), format("woff"), url("/fonts/Roboto-Regular.woff2"), format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Monstr";
+  src: url("/fonts/Roboto-Thin.woff"), format("woff"), url("/fonts/Roboto-Thin.woff2"), format("woff2");
+  font-weight: 100;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(249, 247, 247);
+}
+
+.container {
+  font-family: "Monstr";
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.header {
+  background-color: #212121;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.time__img {
+  width: 14px;
+  height: 14px;
+}
+
+.time__text {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.number__img {
+  width: 14px;
+  height: 14px;
+}
+
+.number__text {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+.grey {
+  color: #E2E2E2;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+.found {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.found__img {
+  height: 14px;
+  height: 14px;
+}
+
+.found__text {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+.nav {
+  background-color: white;
+  padding-top: 20px;
+}
+
+.nav__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav__link {
+  color: #424242;
+  position: relative;
+}
+
+.nav__link::after {
+  content: "";
+  position: absolute;
+  background-image: url(/img/Component\ 4.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 6px;
+  bottom: 35%;
+}/*# sourceMappingURL=main.css.map */
